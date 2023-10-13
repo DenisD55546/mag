@@ -305,12 +305,12 @@ footer{
 .btn {
 	outline:none;
 	cursor: pointer;
-	box-shadow: 0px 5px #bd0f2c;
+	box-shadow: 0px 6px #bd0f2c;
 	color: #fff;
 	position: relative;
 	display: block;
 	background-color:#e31235;
-	border:#e31235;
+	border:#cc1130;
 	border-radius: 4px;
 	font-size:19px;
 	font-family: 'Exo 2', sans-serif;
@@ -323,7 +323,7 @@ footer{
   }
 .btn:hover {
 	box-shadow: 0 4px #bd0f2c;
-	top: 1px;
+	top: 2px;
 }
 .btn:active {
 	box-shadow: none;
