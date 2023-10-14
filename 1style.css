@@ -46,7 +46,7 @@ footer{
     border-left: 0px solid #fff;
     border-right: 0px solid #fff;
     border-bottom: 0px solid #fff;
-    padding: 0px 35px 0px 35px;
+    padding: 0px 10px 0px 10px;
     line-height: 40px;
     font-weight: 300;
     height: 40px;
@@ -374,7 +374,6 @@ footer{
   	grid-template-columns: 500px 400px;
 	font-weight: 400;
 	font-family: Roboto, Helvetica,Arial,sans-serif;
-
 }
 .p-opis{
 	font-size: 16px;
