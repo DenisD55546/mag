@@ -24,7 +24,7 @@ main{
 }
 .menu{
 	height: 40px;
-    background-color: #d72725;
+    background-color: #3a3a3a;
 	z-index: 2;
 	position: relative;
     top:2%;
@@ -36,6 +36,7 @@ footer{
 	box-sizing: border-box;
 }
 .menu-elements{
+	background-color: #3a3a3a;
 	font-family: 'Exo 2', sans-serif;
 	color: #fff;	
 	font-style: normal;
@@ -59,10 +60,10 @@ footer{
 	cursor: pointer;
 }
 .menu-elements:hover{
-		background-color: #a51900;
+		background-color: #2e2e2e;
 }
 .menu-elements:active{
-	background-color: #811300;
+	background-color: #000;
 }
 .logo{
 	width:800px;
@@ -104,7 +105,7 @@ footer{
 .footer {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	background-color: #d72725;
+	background-color: #3a3a3a;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 300;
@@ -383,5 +384,10 @@ footer{
 	width: 900px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	
+}
+.korzina{
+	justify-content: center;
+}
+.korzina-t{
+
 }
