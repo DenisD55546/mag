@@ -583,3 +583,9 @@ footer{
 	display: flex;
 	justify-content: center;
 }
+.name{
+	font-size: 30px;
+	font-weight: 500;
+	height: 35px;
+	padding-top: 10px;
+}
