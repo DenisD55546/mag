@@ -145,6 +145,7 @@ footer{
 .product__title{
 	font-size:15px;
 	font-weight: 400;
+	height: 40px;
 	text-align: left;
 	cursor: pointer;
 }
@@ -162,7 +163,6 @@ footer{
 	margin-bottom: 30px;
     display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 .product-price__old{
 	text-decoration: line-through;
@@ -421,7 +421,7 @@ footer{
 .cart-product{
 	display: flex;
 	justify-content: center;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 .korzina-t{
 	display: flex;
@@ -533,10 +533,7 @@ footer{
 .dop-price-content{
 	margin-top: 0px;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 60px;
-	text-align: left;
+	position: relative;
 	color: #5e5e5e;
 }
 .dop-content{
@@ -547,6 +544,10 @@ footer{
 }
 .default{
 	cursor: default;
+	display: flex;
+	position: relative;
+	margin-right: 7px;
+	margin-left: 7px;
 }
 .cart__num {
 	position: absolute;
@@ -565,7 +566,7 @@ footer{
 }
 .cart-content__list{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	padding: 0px;
 	margin: 0px;
 }
@@ -592,4 +593,29 @@ footer{
 }
 .margin-right{
 	margin-right: 7px;
+}
+html{
+	scrollbar-width: thin;           
+	scrollbar-color: #6e6e6e #f1f1f1 ;
+}
+.button__cart{
+	position: relative;
+	background-color: #5e5e5e;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	border: none;
+	margin-top: 3px;
+}
+.button__cart:hover{
+	background-color: #474747;
+}
+.button__cart:active{
+	background-color: #292929;
 }
