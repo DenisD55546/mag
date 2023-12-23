@@ -49,6 +49,10 @@ document.querySelector('.GM').addEventListener('click', event => {
 		let articul = event.target.dataset['articul'];
 		if (data[articul] !== undefined) {
 			data[articul]['count']++;
+			let count1 = data[articul]['count']
+			let price1 = data[articul]['price']
+			let price2 = data[articul]['double_price']
+			data[articul]['price'] = price1 + price2
 		}
 		else {
 			data[articul] = GM[articul];
