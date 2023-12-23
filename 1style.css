@@ -207,6 +207,13 @@ footer{
 	font-weight: 600;
 	margin-bottom: 10px;
 }
+.pricefull{
+	display: flex;
+	font-family: Roboto, Helvetica,Arial,sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
 .center{
 	text-align: center;
 }

@@ -53,3 +53,8 @@ out += `</ul>`;
 document.querySelector('.cart').innerHTML = out;
 
 
+let fullprice = 0;
+for (let key in cart) {
+    fullprice += cart[key]['price'];
+}
+document.querySelector('.fullprice').innerHTML = fullprice;
